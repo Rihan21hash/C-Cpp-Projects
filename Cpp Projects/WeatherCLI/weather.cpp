@@ -14,7 +14,7 @@ size_t WriteCallback(void* contents, size_t size, size_t nmemb, string* output) 
 
 int main() {
     string city;
-    string apiKey = "ea9472f28d648a2b36d869715e1d16b0";
+    string apiKey = "YOUR_API_KEY_HERE";
     cout << "Enter city name: ";
     getline(cin, city);
 
