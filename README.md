@@ -203,3 +203,7 @@ Weather: smoke
 
 ## Author
 Rihan
+
+## Note
+This repository is intentionally focused on learning and fundamentals, not over-engineering.
+Each project represents a step forward in understanding how real programs work, not just how to write syntax.
