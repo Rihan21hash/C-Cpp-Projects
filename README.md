@@ -6,137 +6,137 @@ The projects progress from basic logic-building programs to more practical appli
 
 ## 📁 Projects Overview
 
-  ### 🔹 1. Library Management System
+  ### -🔹 1. Library Management System
   A console-based system to manage books and basic library operations.
   
   What it helped me learn:
   
-      📘 Object-Oriented Programming (classes and objects)
+      -📘 Object-Oriented Programming (classes and objects)
       
-      💾 File handling for storing and retrieving data
+      -💾 File handling for storing and retrieving data
       
-      📋 Menu-driven program design
+      -📋 Menu-driven program design
       
-      ✔️ Basic data validation and control flow
+      -✔️ Basic data validation and control flow
 
-  ### 🔹 2. Number Guessing Game
+  ### -🔹 2. Number Guessing Game
   A simple interactive game where the user guesses a randomly generated number.
   
   What it helped me learn:
   
-      🎲 Random number generation
+      -🎲 Random number generation
       
-      🔁 Loops and conditional logic
+      -🔁 Loops and conditional logic
       
-      ⌨️ User input handling
+      -⌨️ User input handling
       
-      🧠 Designing simple game logic
+      -🧠 Designing simple game logic
 
-  ### 🔹 3. Simple Calculator
+  ### -🔹 3. Simple Calculator
   A basic calculator supporting arithmetic operations.
   
   What it helped me learn:
   
-      🧩 Functions and modular code
+      -🧩 Functions and modular code
       
-      🔀 Switch-case statements
+      -🔀 Switch-case statements
       
-      ⌨️ Handling user input
+      -⌨️ Handling user input
       
-      🧼 Clean logical separation of operations
+      -🧼 Clean logical separation of operations
 
-  ### 🔹 4. Console-Based Supermarket Billing System
+  ### -🔹 4. Console-Based Supermarket Billing System
   Simulates a basic supermarket billing workflow using a console interface.
   
   What it helped me learn:
   
-      🏗️ Structures / classes for real-world entities
+      -🏗️ Structures / classes for real-world entities
       
-      📦 Arrays and basic data storage
+      -📦 Arrays and basic data storage
       
-      📋 Menu-based program flow
+      -📋 Menu-based program flow
       
-      🧠 Logical problem decomposition
+      -🧠 Logical problem decomposition
   
-  ### 🔹 5. User Registration and Login System
+  ### -🔹 5. User Registration and Login System
   A simple authentication system using file-based storage.
   
   What it helped me learn:
   
-      💾 File handling (read/write operations)
+      -💾 File handling (read/write operations)
       
-      🔐 String comparison and validation
+      -🔐 String comparison and validation
       
-      👤 Basic authentication logic
+      -👤 Basic authentication logic
       
-      ♻️ Data persistence across program runs
+      -♻️ Data persistence across program runs
   
-  ### 🔹 6. WeatherCLI (C++ + REST API)
+  ### -🔹 6. WeatherCLI (C++ + REST API)
   A command-line weather application that fetches real-time weather data using the OpenWeatherMap API.
   
   What it helped me learn:
   
-      🌐 How REST APIs work in real applications
+      -🌐 How REST APIs work in real applications
       
-      🔗 Making HTTP requests in C++ using libcurl
+      -🔗 Making HTTP requests in C++ using libcurl
       
-      🧾 Parsing JSON responses using nlohmann/json
+      -🧾 Parsing JSON responses using nlohmann/json
       
-      ⚠️ Error handling for invalid inputs and API failures
+      -⚠️ Error handling for invalid inputs and API failures
       
-      📦 Working with third-party libraries in C++
+      -📦 Working with third-party libraries in C++
 
-      🛠️ Setting up and debugging a C++ environment on Windows (MSYS2)
+      -🛠️ Setting up and debugging a C++ environment on Windows (MSYS2)
 
-## 🛠️ Technologies & Concepts Used
+## -🛠️ Technologies & Concepts Used
 
   ### Languages:
 
-        🟦 C
+        -🟦 C
         
-        🟩 C++
+        -🟩 C++
 
   ### Core Concepts:
 
-        🧱 Object-Oriented Programming (OOP)
+        -🧱 Object-Oriented Programming (OOP)
         
-        💾 File Handling
+        -💾 File Handling
         
-        🔁 Control Structures
+        -🔁 Control Structures
         
-        🧩 Modular Programming
+        -🧩 Modular Programming
 
   ### Libraries (WeatherCLI):
 
-        🌐 libcurl (HTTP requests)
+        -🌐 libcurl (HTTP requests)
         
-        🧾 nlohmann/json (JSON parsing)
+        -🧾 nlohmann/json (JSON parsing)
 
   ### Platform:
 
-        🪟 Windows
+        -🪟 Windows
 
   ### Toolchain:
 
-        🛠️ MSYS2 (MinGW64)
+        -🛠️ MSYS2 (MinGW64)
 
   ### Editor:
 
-        🧠 Visual Studio Code
+        -🧠 Visual Studio Code
 
-## ▶️ How to Run the WeatherCLI Project (Step-by-Step)
+## -▶️ How to Run the WeatherCLI Project (Step-by-Step)
 
   These steps are only required for the WeatherCLI project.
   Other projects can be compiled and run using standard g++ commands.
   
-      🔹 Step 1: Install MSYS2
+      -🔹 Step 1: Install MSYS2
       
           Download and install MSYS2 from:
           https://www.msys2.org
       
           Open the MSYS2 MinGW64 terminal (important).
       
-      🔹 Step 2: Install Required Packages
+      -🔹 Step 2: Install Required Packages
       
           In MSYS2 MinGW64, run:
           
@@ -144,7 +144,7 @@ The projects progress from basic logic-building programs to more practical appli
           pacman -S mingw-w64-x86_64-toolchain
           pacman -S mingw-w64-x86_64-curl mingw-w64-x86_64-nlohmann-json
       
-      🔹 Step 3: Get an OpenWeather API Key
+      -🔹 Step 3: Get an OpenWeather API Key
       
           Create an account at https://openweathermap.org
           
@@ -155,7 +155,7 @@ The projects progress from basic logic-building programs to more practical appli
           
           Wait 10–30 minutes for the key to become active
       
-      🔹 Step 4: Add the API Key Locally
+      -🔹 Step 4: Add the API Key Locally
       
           Open WeatherCLI/weather.cpp and replace:
           
@@ -165,19 +165,19 @@ The projects progress from basic logic-building programs to more practical appli
           
           🔒 Note: The API key is not included in this repository for security reasons.
       
-      🔹 Step 5: Navigate to the WeatherCLI Folder
+      -🔹 Step 5: Navigate to the WeatherCLI Folder
       
           cd /d/C-Cpp-miniProjects/Cpp\ Projects/WeatherCLI
           
           (Adjust the path if your folder structure is different.)
       
-      🔹 Step 6: Compile the Program
+      -🔹 Step 6: Compile the Program
       
           g++ weather.cpp -o weather.exe -lcurl
           
           If there is no output, compilation was successful.
       
-      🔹 Step 7: Run the Program
+      -🔹 Step 7: Run the Program
       
           ./weather.exe
           
@@ -191,7 +191,7 @@ The projects progress from basic logic-building programs to more practical appli
             
             Tokyo
       
-          📌 Sample Output
+          -📌 Sample Output
       
             --- Weather Report ---
             City: Mumbai
@@ -200,7 +200,7 @@ The projects progress from basic logic-building programs to more practical appli
             Humidity: 57 %
             Weather: smoke
 
-## 🎯 Key Learnings from This Repository
+## -🎯 Key Learnings from This Repository
 
       Writing clean and logical C/C++ programs
       
@@ -216,7 +216,7 @@ The projects progress from basic logic-building programs to more practical appli
       
       Setting up a real development environment on Windows
 
-## 🚀 Future Improvements
+## -🚀 Future Improvements
 
       Add Makefile or CMake build system
       
@@ -228,10 +228,10 @@ The projects progress from basic logic-building programs to more practical appli
       
       Improve documentation and code comments
 
-## 👤 Author
+## -👤 Author
       Rihan
 
-## 📝 Final Note
+## -📝 Final Note
 
       This repository is intentionally focused on learning and fundamentals, not over-engineering.
       Each project represents a step forward in understanding how real programs work, not just how to write syntax.
